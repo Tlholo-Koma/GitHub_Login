@@ -1,7 +1,7 @@
 const url = "https://github.com"
 
 
-function connect() {
+function loginWithGithub() {
     console.log("Here")
     fetch(url+"/login/oauth/authorize", {
         method: "GET",
