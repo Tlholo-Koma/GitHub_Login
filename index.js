@@ -14,7 +14,7 @@ const url = "https://github.com"
 // }
 
 $(".btn").click(function() {
-    $.get(url+"login/oauth/authorize?client_id=d26698775db52875ec91", function (data) {
+    $.get(url+"/login/oauth/authorize?client_id=d26698775db52875ec91", function (data) {
         console.log(`${data}`)
     })
 })
